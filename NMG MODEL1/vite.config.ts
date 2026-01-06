@@ -5,6 +5,9 @@
 
   export default defineConfig({
     plugins: [react()],
+
+    base: '/', // ✅ REQUIRED for Railway
+
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
@@ -49,23 +52,23 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    build: {
-      target: 'esnext',
-      outDir: 'build',
-    },
-    server: {
-      host: "0.0.0.0",
-      port: 8080,
-      allowedHosts: [
-        ".railway.app" // ✅ allow ALL Railway subdomains
-      ]
-    },
-    preview: {
-      host: "0.0.0.0",
-      port: 8080,
-      allowedHosts: [
-        ".railway.app"
-      ]
-    }
-  }
-);
+   server: {
+    host: '0.0.0.0',
+    port: 8080,
+    strictPort: true,
+    allowedHosts: ['.railway.app'],
+  },
+
+  preview: {
+    host: '0.0.0.0',
+    port: 8080,
+    strictPort: true,
+    allowedHosts: ['.railway.app'],
+  },
+
+  build: {
+    outDir: 'dist', // ✅ Vite standard
+    emptyOutDir: true,
+    target: 'esnext',
+  },
+});
