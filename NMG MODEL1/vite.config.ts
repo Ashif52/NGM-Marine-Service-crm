@@ -54,7 +54,18 @@
       outDir: 'build',
     },
     server: {
-      port: 3000,
-      open: true,
+      host: "0.0.0.0",
+      port: 8080,
+      allowedHosts: [
+        ".railway.app" // ✅ allow ALL Railway subdomains
+      ]
     },
-  });
+    preview: {
+      host: "0.0.0.0",
+      port: 8080,
+      allowedHosts: [
+        ".railway.app"
+      ]
+    }
+  }
+);
