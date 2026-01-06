@@ -59,12 +59,9 @@
     allowedHosts: ['.railway.app'],
   },
 
-  preview: {
-    host: '0.0.0.0',
-    port: 8080,
-    strictPort: true,
-    allowedHosts: ['.railway.app'],
-  },
+ preview: {
+  host: "0.0.0.0"
+},
 
   build: {
     outDir: 'dist', // ✅ Vite standard
