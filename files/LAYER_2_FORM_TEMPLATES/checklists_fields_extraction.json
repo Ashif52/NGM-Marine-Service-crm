@@ -1,0 +1,773 @@
+[
+  {
+    "filename": "CPMF -  08 - 02 - INTERNAL AUDIT CHECKLIST - SHIP-OFFICE.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\CPMF -  08 - 02 - INTERNAL AUDIT CHECKLIST - SHIP-OFFICE.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF  -07  - 04   MUSTER LIST.docx",
+    "type": "docx",
+    "paragraphs": [
+      "MUSTER LIST ( SAMPEL COPY)",
+      "VESSEL : ----------------------------------------   IMO NO: -------------------, CALL SIGN: --------------, OFFICIAL NO: --------",
+      "EMERGENCY ALARM \t:\tSEVEN OR MORE SHORT BLAST FOLLOWED BY ONE PROLONGED BLAST.   ( _ _ _ _ _ _ _ ______________ )",
+      "MANOVER BOARD\t:\tTHREE LONG BLASTS.  ( ___  ___  ___  )                                                                                                                                 Key Personnel",
+      "FIRE ALARM\t\t:\tCONTINUOUS RINGING ON BELL NOT LESS THAN 30 SEC.  (-------------------------- )                                              MASTER ------------- C/O",
+      "ABANDONSHIP\t\t:\tVERBAL ORDER BY MASTER                                                                                                                                      C/ ENGINEER -----------2ND/ENG",
+      "MUSTER STATION               :               BOAT DECK PORT SIDE",
+      "FPMF 07-04                                                                                                                               28/03/2023\t                                                     REV.00"
+    ],
+    "tables": [
+      {
+        "table_number": 1,
+        "rows": 11,
+        "columns": 8,
+        "headers": [
+          "RANK",
+          "FIRE",
+          "ABANDON SHIP",
+          "MOB",
+          "HEAVY WEATHER",
+          "GROUNDING/COLLISION/\nFLOODING",
+          "POLLUTION PREVENTION",
+          "ISPS"
+        ],
+        "data": [
+          [
+            "MASTER",
+            "OVERALL  INCHARGE",
+            "BRIDGE DIRECT\nORDER TO ABANDON",
+            "OVERALL INCHARGE",
+            "OVERALL INCHARGE",
+            "OVERALL INCHARGE",
+            "OVERALL INCHARGE INFORM ALL PARTY AS PER SOPEP",
+            "OVER ALL INCHARGE"
+          ],
+          [
+            "CHIEF OFFICER",
+            "SCENE LEADER DIRECT SCBA & HOSE PARTY",
+            "MUSTER PERSONNEL NAV. GEAR, LOGBOOK, LAUNCH LIFE RAFT (PORT)",
+            "LAUNCHING RESCUE BOAT",
+            "SUPERVISE SECURING OF ALL GEARS AND CARGO",
+            "SCENE LEADER SUPERVISE DAMAGE CONTROL TEAM",
+            "INCHARGE OF DECK TEAM KEEP MASTER INFORMED ON THE SITUATION",
+            "TEAM-I\nINCHARGE"
+          ],
+          [
+            "CHIEF ENGINEER",
+            "ENGINE ROOM INCHARGE  FIRE PUMP. ACTIVATE CO2 IF",
+            "ENGINE ROOM ON ORDER FROM MASTER PROVIDES E/R LOGS. SECURE & ABANDON ( STBD)",
+            "E/ ROOM  S/BY ENGINES START AUXILIARY  MACHINERY AS REQUIRED",
+            "E/ ROOM IN CHARGE SECURING OF MACHINERY SPACES ESCAPE HATCH & W/T INTEGRITY",
+            "ENGINE ROOM START PUMPS,SUPERVISE SECURE W/T DOORS HATCHES & OPENINGS MONITOR W/T INTEGRITY",
+            "INCHARGE OF BUNKER OPERATIONS TK SOUNDINGS COMMUNICATION WITH BRIDGE & RECEIVING END.",
+            "OVER ALL INCHARGE OF THE MACHINERY DEPARTMENT\n(E/R,S/R)"
+          ],
+          [
+            "2ND/ENG",
+            "ASSIT C/E PREPARE FIRE PUMPS",
+            "ASST. C/E  (PORT)",
+            "MOB RECOVERY RESCUE BOAT ENGINE",
+            "ASST.C/E SECURE MACHINERY SPACES",
+            "ASSIST C/E PREPARE BILGE/ BALLAST PUMPS TOOLS, PLUGS ETC",
+            "ENGINE ROOM ASST C/E MONITORING BUNKER OPERATIONS",
+            "TEAM-II\nINCHARGE"
+          ],
+          [
+            "3RD ENG",
+            "ASST 2ND ENG SECURE VENTS W/T DOORS",
+            "LAUNCH LIFE RAFT ON ORDER(STBD)",
+            "ASSIST C/E",
+            "SECURE  ALL ITEMS &  W/T OPENING",
+            "ASST 2ND ENG IN PREPARING PUMPS, TOOLS,PLUGS, ETC",
+            "ASST 2ND ENG IN ENGINE ROOM",
+            "ASSI. TO 2ND ENG"
+          ],
+          [
+            "OILER",
+            "SECURE EMERGENCY ESCAPE FIRE HOSE PARTY",
+            "LAUNCHING LIFE RAFTS ON ORDER (PORT)",
+            "IN MOB RECOVERY",
+            "ASST 2ND ENG",
+            "ASST 2ND ENG PREPARING PLUGS TOOLS ETC.",
+            "STAND BY WITH FIRE FIGHTING EQUIPMENT ABSORBANT MATERIAL.",
+            "GANGWAY WATCH"
+          ],
+          [
+            "AB-1",
+            "BRIDGE AT WHEEL MESSENGER",
+            "BRIDGE ORDER FROM MASTER PYROTECHNICS\n(STBD)",
+            "LOOK OUT WITH BINOCULAR KEEP VICTIM IN SIGHT",
+            "BRIDGE AT WHEEL SECURE ALL LOSE GEARS IN BRIDGE",
+            "BRIDGE AT WHEEL MESSENGER",
+            "IF OIL LEAK IS DETECTED IN FORM DUTY OFFICER IMMEDIATELY",
+            "ASSIT. OF MASTER"
+          ],
+          [
+            "OS",
+            "ASST C/O HOSE PARTY RIG FIRE HOSE",
+            "COLLECT EPIRB REPORT TO LIFE RAFT STATION (PORT)",
+            "PREPARE RESCUE BOAT FOR LAUNCHING",
+            "ASST C/O SECURE CARGO & ITEMS  ON DECK.",
+            "ASST C/O DAMAGE CONTROL TEAM",
+            "STAND BY WITH ABSORBENT MATERIAL & PORTABLE FIRE EXTINGUISHER",
+            "GANGWAY WATCH"
+          ],
+          [
+            "OS",
+            "ASST C/O SCBA TEAM",
+            "COLLECT SART & FLAGS TO LIFE RAFT STATION (STBD)",
+            "PREPARE RESCUE BOAT LAUNCHING",
+            "ASST C/O SECURE DECK CARGO AND LOSE GEARS",
+            "ASST C/O DAMAGE CONTROL TEAM",
+            "RIG FIRE HOSE STANDBY",
+            "ASSI.OF C/O"
+          ],
+          [
+            "COOK",
+            "ASST C/O FIRST AID KIT & STRETCHER",
+            "FIREST AND KIT BLANKET WATER\n(STBD)",
+            "MOB RECOVERY FIRST AID KIT& STRETCHER",
+            "SECURE GALLEY CHILLER FREEZER STORES & MESS ROOM",
+            "ASST C/O DAMAGE CONTROL TEAM",
+            "STAND BY FOR INSTRUCTION",
+            "ASSIT. OF C/O"
+          ]
+        ]
+      }
+    ],
+    "form_fields": [],
+    "headers": [],
+    "potential_fields": [
+      "VESSEL : ----------------------------------------   IMO NO: -------------------, CALL SIGN: --------------, OFFICIAL NO: --------",
+      "EMERGENCY ALARM \t:\tSEVEN OR MORE SHORT BLAST FOLLOWED BY ONE PROLONGED BLAST.   ( _ _ _ _ _ _ _ ______________ )",
+      "MANOVER BOARD\t:\tTHREE LONG BLASTS.  ( ___  ___  ___  )                                                                                                                                 Key Personnel",
+      "FIRE ALARM\t\t:\tCONTINUOUS RINGING ON BELL NOT LESS THAN 30 SEC.  (-------------------------- )                                              MASTER ------------- C/O",
+      "ABANDONSHIP\t\t:\tVERBAL ORDER BY MASTER                                                                                                                                      C/ ENGINEER -----------2ND/ENG",
+      "MUSTER STATION               :               BOAT DECK PORT SIDE"
+    ]
+  },
+  {
+    "filename": "FPMF -  02 - 01 - PASSAGE PLAN.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 01 - PASSAGE PLAN.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 02 - PREPRATION FOR ARRIVAL IN PORT.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 02 - PREPRATION FOR ARRIVAL IN PORT.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 03 - DEPARTURE PREPRATION FOR SEA.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 03 - DEPARTURE PREPRATION FOR SEA.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 04 - PILOT CARD.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 04 - PILOT CARD.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 05 -  NAVIGATION IN COASTAL WATERS.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 05 -  NAVIGATION IN COASTAL WATERS.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 06 -  NAVIGATION IN OCEAN WATERS.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 06 -  NAVIGATION IN OCEAN WATERS.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 07 -  ANCHOR AND ANCHOR WATCH.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 07 -  ANCHOR AND ANCHOR WATCH.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 08 - NAVIGATION IN RESTRICTED VISIBILITY.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 08 - NAVIGATION IN RESTRICTED VISIBILITY.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 09 - NAVIGATION IN HEAVY WEATHER AND TROPICAL STORM AREAS.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 09 - NAVIGATION IN HEAVY WEATHER AND TROPICAL STORM AREAS.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 10 -  NAVIGATION IN ICE.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 10 -  NAVIGATION IN ICE.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 11 - SAFETY FAMILIRISATION CHECKLIST.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  02 - 11 - SAFETY FAMILIRISATION CHECKLIST.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  02 - 15 - MONTHLY NAVIGATIONAL EQUIPMENT STATUS REPORT.XLS",
+    "type": "xls",
+    "sheets": [
+      {
+        "sheet_name": "RADIOBRIDGE EQ STAT RPT",
+        "headers": [
+          "NMG MARINE SERVICE PVT. LTD",
+          "",
+          "",
+          ""
+        ],
+        "rows": 46,
+        "cols": 4,
+        "data_sample": [
+          [
+            "NMG MARINE SERVICE PVT. LTD",
+            "",
+            "",
+            ""
+          ],
+          [
+            "MONTHLY NAVIGATIONAL EQUIPMENT STATUS REPORT",
+            "",
+            "",
+            ""
+          ],
+          [
+            "VESSEL: ",
+            "",
+            "",
+            "DATE: "
+          ],
+          [
+            "FOR THE MONTH ENDING:  ",
+            "",
+            "",
+            ""
+          ],
+          [
+            "S.No",
+            "NAVIGATIONAL EQUIPMENT",
+            "MAKE",
+            "STATUS"
+          ],
+          [
+            "1",
+            "Gyro Compass",
+            "",
+            ""
+          ],
+          [
+            "2",
+            "Magnetic Compsass",
+            "",
+            ""
+          ],
+          [
+            "3",
+            "Compass Repeaters",
+            "",
+            ""
+          ],
+          [
+            "4",
+            "Gyro Compass Interface",
+            "",
+            ""
+          ],
+          [
+            "5",
+            "ARPA",
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "FPMF -  02 - 18 - PASSAGE PLAN  ( PILOT STATION - BERTH - PILOT STATION ).xls",
+    "type": "xls",
+    "sheets": [
+      {
+        "sheet_name": "passage plan inside port",
+        "headers": [
+          "",
+          "",
+          "NMG MARINE SERVICE PVT. LTD",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "rows": 55,
+        "cols": 14,
+        "data_sample": [
+          [
+            "",
+            "",
+            "NMG MARINE SERVICE PVT. LTD",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "VESSEL : ",
+            "",
+            "PASSAGE PLAN  ( PILOT STATION - BERTH - PILOT STATION )",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "PORT :",
+            "",
+            "",
+            "FROM :",
+            "",
+            "",
+            "TO :",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "CHARTS :",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "FROM",
+            "TO",
+            "GYRO ",
+            "DIST",
+            "USUAL",
+            "depth",
+            "NOTES",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "HDG",
+            "ON",
+            "SPEED",
+            "ON",
+            "(Safety ranges/Bearings ; Wheel Over Points ; Shoaling; Predominent Set;",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "LEG",
+            "",
+            "LEG",
+            "Bank effects etc. )",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "FPMF -  02 - 19 - PILOTAGE WATER CHECKLIST.xls",
+    "type": "xls",
+    "sheets": [
+      {
+        "sheet_name": "B4",
+        "headers": [
+          "NMG MARINE SERVICE PVT. LTD",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "rows": 47,
+        "cols": 5,
+        "data_sample": [
+          [
+            "NMG MARINE SERVICE PVT. LTD",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            " Pilotage waters checklist",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "Immediately on arrival on the bridge, has the pilot been informed of the ship's heading,",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "speed, engine setting and draught?",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "Has the pilot been informed of the location of lifesaving appliances provided on board",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "for his use?",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Have details of the proposed passage plan been discussed with the pilot and  agreed with the",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            ",master inculding",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "Radio communications and reporting requirements",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "FPMF -  06 - 01 - ENTRY INTO ENCLOSED SPACES.docx",
+    "type": "docx",
+    "paragraphs": [
+      "GENERAL",
+      "Location/name of enclosed space :",
+      "Reason for entry  :  .",
+      "This permit is valid      From:                 hrs\tDate   ...............",
+      "To:                     hrs\tDate  ...............",
+      "(See Note 1)",
+      "SECTION 1 – PRE-ENTRY PREPARATION",
+      "(To be checked by the master or nominated responsible person)",
+      "- hydrocarbon\t% LFL (less than 1%)",
+      "- toxic gases ............. ppm (less than 50% OEL of the specific gas) Time:",
+      "(See note 3)",
+      "Have arrangements been made for frequent atmosphere checks to",
+      "be made while the space is occupied and after work breaks?",
+      "Have arrangements been made for the space to be continuously",
+      "ventilated throughout the period of occupation and during work breaks?",
+      "Are access and illumination adequate?",
+      "Is rescue and resuscitation equipment available for immediate use by",
+      "the entrance to the space?",
+      "Has an attendant been designated to be in constant attendance at the",
+      "entrance to the space?",
+      "Has the officer of the watch (bridge, engine-room, cargo control room)",
+      "been advised of the planned entry?",
+      "Has a system of communication between all parties been tested  and",
+      "emergency signals agreed?",
+      "Are emergency and evacuation procedures established and",
+      "understood by all personnel involved with the enclosed space entry",
+      "Is all equipment used in good working condition and inspected prior",
+      "to entry?",
+      "Are personnel properly clothed and equipped?",
+      "SECTION 2 – PRE-ENTRY CHECKS",
+      "(To be checked by each person entering the space)",
+      "Yes/  No",
+      "I have received instructions or permission from the master or",
+      "nominated responsible person to enter the enclosed space",
+      "Section 1 of this permit has been satisfactorily completed by the",
+      "master or nominated responsible person\"",
+      "I have agreed and understand the communication procedures",
+      "I have agreed upon a reporting interval of .............. minutes",
+      "Emergency and evacuation procedures have been agreed and are",
+      "understood",
+      "I am aware that the space must be vacated immediately in the event of ventilation failure or if atmosphere tests show a change from agreed safe criteria",
+      "SECTION 3 –",
+      "BREATHING APPARATUS AND OTHER EQUIPMENT",
+      "(To be checked jointly by the master or nominated responsible  person and the person who is to enter the space)",
+      "Yes/  No",
+      "Those entering the space are familiar with any breathing",
+      "apparatus to be used",
+      "The breathing apparatus has been tested as follows:",
+      "gauge and capacity of air supply",
+      "low pressure audible alarm if fitted",
+      "face mask – under positive pressure and not leaking",
+      "The means of communication and emergency signals Tested/ agreed.",
+      "All personnel entering the space have been provided with rescue",
+      "harnesses and, where practicable, lifelines",
+      "Signed upon completion of sections 1, 2 and 3 by",
+      "Master or nominated responsible person :                                  Date :                  Time:",
+      "Attendant :                                                                                Date :                  Time:",
+      "Person entering the space :                                                          Date :                   Time :",
+      "SECTION 4 – PERSONNEL ENTRY",
+      "(To be completed by the responsible person supervising entry)",
+      "Names  :",
+      "Time in :                                Time out:",
+      "SECTION 5 – COMPLETION OF JOB",
+      "(To be completed by the responsible person supervising entry)",
+      "Job completed\t                    Date:         \tTime  :",
+      "Space secured against entry - \t                               Date:\t         Time :",
+      "The officer of the watch has been duly informed -\t   Date:\t         Time  :",
+      "Signed upon completion of sections 4 and 5 by:",
+      "Responsible person supervising entry –                            Date :                Time :",
+      "Notes:",
+      "The permit should contain a clear indication as to its maximum period of validity.",
+      "In order to obtain a representative cross-section of the space's atmosphere, samples should be taken from several levels and through as many openings as possible. Ventilation should be stopped for about 10 minutes before the pre-entry atmosphere tests are taken.",
+      "Tests for specific toxic contaminants, such as benzene or hydrogen sulphide, should be undertaken depending on the nature of the previous contents of the space.",
+      "THIS PERMIT IS RENDERED INVALID SHOULD VENTILATION OF THE SPACE STOP                     OR IF ANY OF THE CONDITIONS NOTED IN THE CHECKLIST CHANGE"
+    ],
+    "tables": [
+      {
+        "table_number": 1,
+        "rows": 5,
+        "columns": 3,
+        "headers": [
+          "Has the space been thoroughly ventilated by mechanical means?\nHas the space been segregated by blanking off or  isolating all connecting pipelines or valves and electrical Power/equipment?",
+          "Yes / No",
+          ""
+        ],
+        "data": [
+          [
+            "Has the space been cleaned where necessary?",
+            "",
+            ""
+          ],
+          [
+            "Has the space been tested and found safe for entry?       (See note 2)",
+            "",
+            "."
+          ],
+          [
+            "Pre-entry atmosphere test readings:",
+            "",
+            ""
+          ],
+          [
+            "- oxygen \t%vol (21%)*",
+            "By:",
+            ""
+          ]
+        ]
+      }
+    ],
+    "form_fields": [],
+    "headers": [],
+    "potential_fields": [
+      "Location/name of enclosed space :",
+      "Reason for entry  :  .",
+      "This permit is valid      From:                 hrs\tDate   ...............",
+      "To:                     hrs\tDate  ...............",
+      "- toxic gases ............. ppm (less than 50% OEL of the specific gas) Time:",
+      "The breathing apparatus has been tested as follows:",
+      "Master or nominated responsible person :                                  Date :                  Time:",
+      "Attendant :                                                                                Date :                  Time:",
+      "Person entering the space :                                                          Date :                   Time :",
+      "Names  :",
+      "Time in :                                Time out:",
+      "Job completed\t                    Date:         \tTime  :",
+      "Space secured against entry - \t                               Date:\t         Time :",
+      "The officer of the watch has been duly informed -\t   Date:\t         Time  :",
+      "Signed upon completion of sections 4 and 5 by:",
+      "Responsible person supervising entry –                            Date :                Time :",
+      "Notes:"
+    ]
+  },
+  {
+    "filename": "FPMF -  06 - 02 - HOT WORK PERMIT.docx",
+    "type": "docx",
+    "error": "\"no relationship of type 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument' in collection\""
+  },
+  {
+    "filename": "FPMF -  06 - 04 - COLD WORK PERMIT.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  06 - 04 - COLD WORK PERMIT.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  06 - 05 -ELECTRICAL ISOLATION FORM.docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  06 - 05 -ELECTRICAL ISOLATION FORM.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  09 - 01 - BUNKERING CHECK LIST.docx",
+    "type": "docx",
+    "error": "\"no relationship of type 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument' in collection\""
+  },
+  {
+    "filename": "FPMF -  15 - 01 - CARGO PRE LOADING CHECKLIST (1).docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  15 - 01 - CARGO PRE LOADING CHECKLIST (1).docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  15 - 02 - CARGO WATCH CHECKLIST (1).docx",
+    "type": "docx",
+    "error": "file 'Checklists\\FPMF -  15 - 02 - CARGO WATCH CHECKLIST (1).docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  {
+    "filename": "FPMF -  15 - 03 - CARGO POST LOADING CHECKLIST (1).doc",
+    "type": "doc",
+    "note": "Old Word format - please convert to .docx for full extraction"
+  },
+  {
+    "filename": "FPMF -  15 - 04 - CARGO PRE DISCHARGING CHECKLIST (1).doc",
+    "type": "doc",
+    "note": "Old Word format - please convert to .docx for full extraction"
+  },
+  {
+    "filename": "FPMF -  15 - 05 - CARGO POST DISCHARGING CHECKLIST (1).doc",
+    "type": "doc",
+    "note": "Old Word format - please convert to .docx for full extraction"
+  },
+  {
+    "filename": "FPMF -  15 - 06 - CONTAINER CARGO CHECKLIST (1).doc",
+    "type": "doc",
+    "note": "Old Word format - please convert to .docx for full extraction"
+  },
+  {
+    "filename": "FPMF -  15 - 07 - SHIP TO SHORE CARGO CHECKLIST (1).doc",
+    "type": "doc",
+    "note": "Old Word format - please convert to .docx for full extraction"
+  },
+  {
+    "filename": "FPMF -  15 - 09 - CARGO DAMAGE REPORT.doc",
+    "type": "doc",
+    "note": "Old Word format - please convert to .docx for full extraction"
+  },
+  {
+    "filename": "FPMF -  15 - 10 - IMDG CARGO ON DECK.doc",
+    "type": "doc",
+    "note": "Old Word format - please convert to .docx for full extraction"
+  },
+  {
+    "filename": "FPMF -  15 - 14 - STS CHECKLIST.doc",
+    "type": "doc",
+    "note": "Old Word format - please convert to .docx for full extraction"
+  },
+  {
+    "filename": "FPMF -  15 - 16 - CARGO DOCUMENTS.doc",
+    "type": "doc",
+    "note": "Old Word format - please convert to .docx for full extraction"
+  }
+]
