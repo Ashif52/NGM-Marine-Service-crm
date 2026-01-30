@@ -20,7 +20,6 @@ from app.routes.dg_communications import router as dg_communications_router
 from app.routes.invoices import router as invoices_router
 from app.routes.clients import router as clients_router
 from app.routes.dashboard import router as dashboard_router
-from app.routes.documents import router as documents_router
 from app.database import ship_service, user_service
 from app.schemas import *
 
@@ -31,18 +30,8 @@ async def lifespan(app: FastAPI):
     """Application startup and shutdown events"""
     print("🚀 NMG Marine Management System starting up...")
     
-    # Verify Firebase configuration
-    from app.firebase import firebase_config
-    if not firebase_config.get("private_key") or not firebase_config.get("project_id"):
-        print("⚠️ WARNING: Firebase configuration is incomplete! Check environment variables.")
-        print(f"   Project ID: {'PRESENT' if firebase_config.get('project_id') else 'MISSING'}")
-        print(f"   Private Key: {'PRESENT' if firebase_config.get('private_key') else 'MISSING'}")
-    
     # Initialize default data
-    try:
-        await initialize_default_data()
-    except Exception as e:
-        print(f"❌ Error during data initialization: {str(e)}")
+    await initialize_default_data()
     
     yield
     
@@ -55,22 +44,11 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# CORS configuration
-backend_cors_origins = os.getenv("BACKEND_CORS_ORIGINS")
-if backend_cors_origins:
-    try:
-        import json
-        origins = json.loads(backend_cors_origins)
-    except Exception:
-        origins = [origin.strip() for origin in backend_cors_origins.split(",")]
-else:
-    origins = ["*"]
-
+# CORS configuration - allow all origins for development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
-    # Browsers block "*" origins if allow_credentials is True
-    allow_credentials=True if origins != ["*"] else False,
+    allow_origins=["*"],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
     expose_headers=["*"],
@@ -108,7 +86,6 @@ app.include_router(bunkering_router, prefix="/api/v1")
 app.include_router(recruitment_router, prefix="/api/v1")
 app.include_router(dg_communications_router, prefix="/api/v1")
 app.include_router(invoices_router, prefix="/api/v1")
-app.include_router(documents_router, prefix="/api/v1")
 app.include_router(clients_router, prefix="/api/v1")
 app.include_router(admin_router, prefix="/api/v1")
 
