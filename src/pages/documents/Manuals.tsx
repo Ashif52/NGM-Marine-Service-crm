@@ -8,12 +8,15 @@ import { useAuth } from '@/contexts/AuthContext';
 import { documentService } from '@/services/documents';
 import { Manual, ManualType } from '@/types/documents';
 import { toast } from 'sonner';
+import { ManualUploadDialog } from '@/components/documents/ManualUploadDialog';
+import { API_BASE_URL } from '../../firebase';
 
 export default function Manuals() {
     const { user } = useAuth();
     const [manuals, setManuals] = useState<Manual[]>([]);
     const [loading, setLoading] = useState(true);
     const [activeTab, setActiveTab] = useState('all');
+    const [uploadDialogOpen, setUploadDialogOpen] = useState(false);
 
     const isStaffOrMaster = ['staff', 'master'].includes(user?.role || '');
 
@@ -53,12 +56,18 @@ export default function Manuals() {
                     </p>
                 </div>
                 {isStaffOrMaster && (
-                    <Button variant="default">
+                    <Button variant="default" onClick={() => setUploadDialogOpen(true)}>
                         <Upload className="mr-2 h-4 w-4" />
                         Upload New Manual
                     </Button>
                 )}
             </div>
+
+            <ManualUploadDialog 
+                open={uploadDialogOpen} 
+                onOpenChange={setUploadDialogOpen}
+                onSuccess={loadManuals}
+            />
 
             <Tabs defaultValue="all" className="w-full" onValueChange={setActiveTab}>
                 <TabsList>
@@ -96,7 +105,11 @@ export default function Manuals() {
                                     </div>
 
                                     <Button className="w-full" variant="outline" asChild>
-                                        <a href={manual.file_url} target="_blank" rel="noopener noreferrer">
+                                        <a 
+                                            href={(manual.file_url.startsWith('http')) ? manual.file_url : `${API_BASE_URL}${manual.file_url}`} 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                        >
                                             <Download className="mr-2 h-4 w-4" />
                                             Download PDF
                                         </a>

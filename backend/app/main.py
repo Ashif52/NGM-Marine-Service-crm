@@ -21,8 +21,11 @@ from app.routes.invoices import router as invoices_router
 from app.routes.clients import router as clients_router
 from app.routes.dashboard import router as dashboard_router
 from app.routes.documents import router as documents_router
+from app.routes.uploads import router as uploads_router
 from app.database import ship_service, user_service
 from app.schemas import *
+from fastapi.staticfiles import StaticFiles
+from pathlib import Path
 
 load_dotenv()
 
@@ -64,12 +67,21 @@ if backend_cors_origins:
     except Exception:
         origins = [origin.strip() for origin in backend_cors_origins.split(",")]
 else:
+    # Default for production/Railway: Allow all or specific railway domains
     origins = ["*"]
+
+# In production, check for Railway environment
+is_railway = os.getenv("RAILWAY_STATIC_URL") or os.getenv("RAILWAY_PUBLIC_DOMAIN")
+if is_railway:
+    print(f"🌐 Running on Railway, allowing origins: {origins}")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     # Browsers block "*" origins if allow_credentials is True
+    # If we need credentials (like Firebase tokens in some flows), origins cannot be "*"
+    # But for Bearer tokens in headers, "*" is usually fine if allow_credentials is False.
+    # To be safe for auth, we'll allow credentials and handle the origin properly.
     allow_credentials=True if origins != ["*"] else False,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -109,8 +121,15 @@ app.include_router(recruitment_router, prefix="/api/v1")
 app.include_router(dg_communications_router, prefix="/api/v1")
 app.include_router(invoices_router, prefix="/api/v1")
 app.include_router(documents_router, prefix="/api/v1")
+app.include_router(uploads_router, prefix="/api/v1")
 app.include_router(clients_router, prefix="/api/v1")
 app.include_router(admin_router, prefix="/api/v1")
+
+# Mount files directory to serve documents
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent
+FILES_DIR = ROOT_DIR / "files"
+FILES_DIR.mkdir(exist_ok=True)
+app.mount("/files", StaticFiles(directory=str(FILES_DIR)), name="files")
 
 # Global exception handler
 @app.exception_handler(Exception)
